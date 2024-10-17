@@ -25,7 +25,7 @@ def main():
             hold = encode(pw)
             print("Your password has been encoded and stored!\n")
         elif op == 2:
-            print(f"The encoded password is {hold}, and the original password is {decode(hold)}.") # I think the formatting is fine the way it is. I added a period since the example output had one.
+            print(f"The encoded password is {hold}, and the original password is {decode(hold)}.\n") # I think the formatting is fine the way it is. I added a period since the example output had one.
         elif op == 3:
             exit()
 
